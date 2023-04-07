@@ -23,6 +23,7 @@ def approach_4(n: int,_sum:int =0 ) -> int:
     else:
         return approach_4(n-1, _sum + n)
 
+# Recursion
 def approach_5(n: int,_sum:int =0 ) -> int:
 
     if n==0:
@@ -33,7 +34,7 @@ def approach_5(n: int,_sum:int =0 ) -> int:
 
 if __name__ == '__main__':
     n = 10
-    result = approach_1(10)
+    result = approach_1(5)
     print(f'Total sum {result}')
 
     result = approach_2(10)
